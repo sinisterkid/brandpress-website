@@ -1,0 +1,90 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+p {
+	font-family: 'Lato', sans-serif;	
+}
+/* Overwrite */
+.title {
+	font-weight: 900;
+}
+.subtitle {
+	font-family: 'Lato', sans-serif;
+}
+.hero h1.title {
+	font-size: 3.5rem;
+}
+.hero .notification {
+	padding: 5rem;
+}
+a.navbar-item, .navbar-item .button {
+    font-weight: 700;
+}
+.navbar.is-transparent {
+	background-color: rgba(255,255,255,.90);
+	box-shadow: none;
+}
+a {
+	color: #209cee;
+}
+.button {
+	font-weight: 700;
+}
+video {
+	padding: 2rem;
+}
+.card .title {
+	font-size: 1.5rem;
+}
+.footer {
+	background-color: #;
+	color: #919EAB;
+}
+.footer a {
+	color: #919EAB;
+}
+.footer a:hover {
+	color: #209cee;
+	text-decoration: underline;
+}
+.footer li {
+	padding: .5rem 0;
+}
+.footer .is-multiline {
+	padding-bottom: 5rem;
+}
+.legal-text p, .legal-text h2, .legal-text ol, .legal-text ul {
+	padding: 1rem 0;
+}
+.legal-text h1, .legal-text h2 {
+	font-family: Helvetica, sans-serif;
+}
+@media screen and (min-width: 1472px)
+{
+	.container {
+		padding: 0 10rem;
+	}
+}
+@media screen and (min-width: 1280px)
+{
+	.container {
+		padding: 0 5rem;
+	}
+}
+@media screen and (min-width: 1088px)
+{
+
+}
+@media screen and (max-width: 768px)
+{
+	.hero .notification {
+		padding: 2rem;
+	}
+	.hero h1.title {
+		font-size: 2.5rem;
+	}
+}
