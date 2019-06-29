@@ -1,5 +1,8 @@
+html {
+	background-color: #fafafa;
+}
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif; background-color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Playfair Display', serif;
@@ -15,7 +18,7 @@ p {
 .subtitle {
 	font-family: 'Lato', sans-serif;
 }
-.hero h1.title {
+h1.title {
 	font-size: 3.5rem;
 }
 .hero .notification {
@@ -63,6 +66,39 @@ video {
 .legal-text h1, .legal-text h2 {
 	font-family: Helvetica, sans-serif;
 }
+.container.narrow-page {
+margin: 3rem auto;
+}
+.content ul {
+	margin: 0;
+	padding: 0;
+}
+.content li {
+	list-style: none;
+}
+.pricing h1 {
+	font-size: 3rem;
+	font-weight: 900;
+}
+.pricing h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+.pricing h3 {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 3rem;
+	margin: 0;
+}
+.pricing .field {
+    padding: 2rem 0;
+}
+.instructions .title {
+	font-family: Helvetica, sans-serif;
+}
+.instructions article {
+	padding-bottom: 3rem;
+}
 @media screen and (min-width: 1472px)
 {
 	.container {
@@ -84,7 +120,7 @@ video {
 	.hero .notification {
 		padding: 2rem;
 	}
-	.hero h1.title {
+	h1.title {
 		font-size: 2.5rem;
 	}
 }
