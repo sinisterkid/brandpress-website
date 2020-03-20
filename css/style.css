@@ -18,8 +18,8 @@ p {
 .subtitle {
 	font-family: 'Lato', sans-serif;
 }
-h1.title {
-	font-size: 3.5rem;
+.hero h1.title {
+	font-size: 3.0rem;
 }
 .hero .notification {
 	padding: 5rem;
