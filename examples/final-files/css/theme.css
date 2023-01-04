@@ -1,0 +1,48 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.logo {
+	text-align: center;
+	margin: 0px;
+}
+
+.logo .col-md-3, .logo .col-md-4, .logo .col-md-6, .logo .col-md-12 {
+	border: 1px solid #eee;
+	padding: 40px 10px 20px 10px;
+	margin: 0 0 10px;
+}
+
+.logo img {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.logo p {
+	color: #ccc;
+	text-rendering: optimizeLegibility;
+}
+.transparent-logo {
+	background-color: #f1f1f1;
+}
+.zip img {
+	width: 86px;
+}
+.page-header {
+	border: none;
+}
